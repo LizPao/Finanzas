@@ -106,4 +106,10 @@
     box-shadow: 0 0 10px rgba(123, 249, 134, 0.948) inset;
 }
 
+.balance {
+    margin: 5% 0;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(206, 204, 219, 0.948) inset;
+}
+
 

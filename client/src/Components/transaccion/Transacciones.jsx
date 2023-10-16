@@ -20,19 +20,19 @@ const Transacciones =()=> {
     return (
         <div>
             <div>
-                <h1>Transaccioneshhh</h1>
+                <h1 className='text-center mb-3'>Transacciones</h1>
                 <div className="stats-con d-flex justify-content-around">
                     <div className="chart-con ">
                         <Chart />
                         <div className="amount-con">
-                            <div className="income">
-                                <h2>Total Ingreso :  {totalIncome()}</h2>
+                            <div className="income total-ingreso p-2">
+                                <h4>Total de Ingresos: Gs. <span> {totalIncome()} </span></h4>
                             </div>
-                            <div className="expense">
-                                <h2>Total Gasto:  {totalExpenses()}</h2>
+                            <div className="expense total-income p-2">
+                                <h4>Total de Gastos: Gs. <span> {totalExpenses()} </span></h4>
                             </div>
-                            <div className="balance">
-                                <h2>Total Balance:  {totalBalance()}</h2>
+                            <div className="balance p-2">
+                                <h4>Saldo Total: Gs. <span>{totalBalance()}</span> </h4>
                             </div>
                         </div>
                     </div>
