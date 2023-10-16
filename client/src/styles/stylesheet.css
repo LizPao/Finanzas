@@ -100,4 +100,10 @@
     box-shadow: 0 0 10px rgba(224, 165, 165, 0.948) inset;
 }
 
+.total-ingreso{
+    margin: 5% 0;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(123, 249, 134, 0.948) inset;
+}
+
 

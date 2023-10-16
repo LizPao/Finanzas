@@ -25,7 +25,7 @@ const Gasto = ()=> {
                 </div>
                 <div className='w-50'>
                     <div className="gastoUser">
-                            <h1 className='text-center'>Historial</h1>
+                            <h2 className='text-center'>Historial</h2>
                         {expenses.map((income) => {
                             const { _id, title, amount, date, category, description, type } = income;
                             return <IngresoItem key={_id} id={_id} title={title} description={description} amount={amount} date={date} type={type} category={category} deleteItem={deleteExpense} />
