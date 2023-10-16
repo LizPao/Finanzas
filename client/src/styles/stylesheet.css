@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.title-user {
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.form-user {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: white;
+    border-radius: 2rem;
+    padding: 3rem 5rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.input-user {
+    background-color: transparent;
+    padding: 1rem;
+    border-radius: 0.4rem;
+    color: black;
+    width: 100%;
+    font-size: 1rem;
+
+}
+
+.span-user {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    color: rgb(32, 5, 141);
+    margin-right: 5px;
+}
+
+.home{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.textFinanza h1{
+    font-family: 'Anton', sans-serif;
+    text-align: left;
+    letter-spacing: 1px;
+    margin: 30px 0;
+}
+.textFinanza p {
+    width: 70%;
+    font-size: 25px;
+}
+.img{
+    width: 100%;
+    margin-top: 100%;
+    margin-left: 40%;
+}
+/*-----------------------------------------------*/
+.containerForm{
+    box-shadow: 0 0 10px rgba(168, 171, 168, 0.996);
+    padding: 50px;
+}
+.contenedor{
+    display: flex;
+}
+.inputFecha {
+    width: 60%;
+    margin-left: 41%;
+}
+.btnAdd {
+    margin-left: 71%;
+    letter-spacing: 1px;
+}
+.gastoUser {
+    min-width: 50%;
+    min-height: 20%;
+    height: auto;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(168, 171, 168, 0.996);
+    
+}
+.total-income{
+    margin: 5% 0;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(224, 165, 165, 0.948) inset;
+}
+
+
