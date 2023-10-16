@@ -20,7 +20,6 @@ const Transacciones =()=> {
     return (
         <div>
             <div>
-                <h1 className='text-center mb-3'>Transacciones</h1>
                 <div className="stats-con d-flex justify-content-around">
                     <div className="chart-con ">
                         <Chart />

@@ -27,10 +27,10 @@ ChartJs.register(
 
 function Chart() {
     const {incomes, expenses} = useGlobalContext()
-
+    
     const data = {
-        labels: incomes.map((inc) =>{
-            const {date} = inc
+        labels: incomes.map((dec) =>{
+            const {date} = dec
             return dateFormat(date)
         }),
         datasets: [

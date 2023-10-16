@@ -8,7 +8,7 @@ const HistorialReciente = ()=> {
 
     return (
         <div>
-            <h2>Historia reciente....</h2>
+            <h2>Transacciones Recientes</h2>
             {history.map((item) => {
                 const { _id, title, amount, type, description } = item
                 return (
